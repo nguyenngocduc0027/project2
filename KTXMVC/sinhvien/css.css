@@ -1,0 +1,102 @@
+.logo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.cantop{
+	margin-top: 40px;
+	color: #fff;
+}
+.nenxanh{
+	background: #1e73be;
+}
+.nenbac{
+	background: #edf0f2;
+}
+.logofb{
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #333333;
+}
+.logofb:hover{
+    background: #3366ff;
+    height: 40px;
+    width: 40px;
+}
+        /* MeNU*/
+nav.menu {
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+nav.menu ul {
+  background: #EDF0F2;
+  list-style-type: none;
+}
+nav.menu li {
+  display: inline-block;
+  line-height: 50px;
+  height: 50px;
+  width: 210px;
+  position: relative;
+}
+nav.menu a.ad {
+    background: #00c2ff;
+    color: #fff;
+}
+nav.menu a {
+  text-decoration: none;
+  color: #3399FF;
+  display: block;
+}
+nav.menu a:hover {
+  background: #F26522;
+  color: #fff;
+}
+nav.menu .sub-menu {
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 2px #999999;
+  position: absolute;
+}
+nav.menu li:hover .sub-menu{
+    display: block;
+}
+		/*-------Menu-Left----------*/
+#menu h3 {
+    background-color: #00c2ff;
+    color: #fff;
+    padding-top: .2em;
+    padding-bottom: 0.2em;
+    text-align: center;
+}
+#menu {
+width: 200px;
+ display: block;
+ background: #edf0f2;
+}
+#menu ul {
+ list-style-type: none;
+ padding: 0;
+}
+#menu  li {
+ line-height:1.6em;
+ height: 2.8em;
+}
+#menu li a {
+ text-decoration: none;
+ color: #070707;
+ padding: .5em;
+ text-align: left;
+ padding-left: 1em;
+ display: block;
+
+}
+#menu a:hover {
+    background: #3399ff;
+    color: #fff;
+}
+/* end style menu */
